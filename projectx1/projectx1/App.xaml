@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectx1.App">
+    <Application.Resources>
+        <OnPlatform x:TypeArguments="x:String" x:Key="RockSalt">
+            <On Platform="Android" Value="RockSalt-Regular.ttf#RockSalt" />
+        </OnPlatform>
+    </Application.Resources>
+</Application>

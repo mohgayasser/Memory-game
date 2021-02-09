@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectx1.userProfile">
+    <ContentPage.Content>
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="0.5*"></RowDefinition>
+                <RowDefinition Height="0.2*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label FontFamily="{StaticResource RockSalt}" FontSize="30" TextColor="Black" HorizontalOptions="Center" Grid.Row="0" Grid.ColumnSpan="5" Grid.Column="0" Text="Memory Game "></Label>
+            <Label FontFamily="{StaticResource RockSalt}" FontSize="15" Text="Score" TextColor="Black" Grid.Row="1"  Grid.Column="1"     ></Label>
+            <Label FontFamily="{StaticResource RockSalt}" FontSize="20" Text="Time" TextColor="Black" Grid.Row="1" Grid.Column="3" ></Label>
+            <Label FontFamily="{StaticResource RockSalt}" FontSize="15" Text="0" TextColor="Black" Grid.Row="1" Grid.Column="2" x:Name="Score" ></Label>
+            <Label FontFamily="{StaticResource RockSalt}" FontSize="15" Text="0:0" TextColor="Black" Grid.Row="1" Grid.Column="4" x:Name="Timer"></Label>
+            <ImageButton Source="repeat.png" VerticalOptions="Center" BackgroundColor="White" x:Name="repeat" Clicked="Repeat_Clicked" Grid.Row="2" Grid.Column="3"></ImageButton>
+            <ImageButton Source="again2.png" VerticalOptions="Center" BackgroundColor="Wheat" x:Name="again" Clicked="Again_Clicked" Grid.Row="2" Grid.Column="4"></ImageButton>
+
+            <Image Source="#" BackgroundColor="Black" Grid.Row="3" Grid.Column="0"  Margin="4"  BindingContext="btn1" x:Name="btn1">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2"
+                       />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="3" Grid.Column="1"  Margin="4" BindingContext="btn2" x:Name="btn2">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="3" Grid.Column="2"  Margin="4" BindingContext="btn3" x:Name="btn3">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="3" Grid.Column="3" Margin="4" BindingContext="btn4" x:Name="btn4">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="3" Grid.Column="4" Margin="4" BindingContext="btn5" x:Name="btn5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image Source="#" BackgroundColor="Black" Grid.Row="4" Grid.Column="0" Margin="4" BindingContext="btn6" x:Name="btn6">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="4" Grid.Column="1" Margin="4" BindingContext="btn7" x:Name="btn7">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="4" Grid.Column="2" Margin="4" BindingContext="btn8" x:Name="btn8">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="4" Grid.Column="3" Margin="4" BindingContext="btn9" x:Name="btn9">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="4" Grid.Column="4" Margin="4" BindingContext="btn10" x:Name="btn10">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image Source="#" BackgroundColor="Black" Grid.Row="5" Grid.Column="0" Margin="4" BindingContext="btn11" x:Name="btn11">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="5" Grid.Column="1" Margin="4" BindingContext="btn12" x:Name="btn12">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="5" Grid.Column="2" Margin="4" BindingContext="btn13" x:Name="btn13">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="5" Grid.Column="3" Margin="4" BindingContext="btn14" x:Name="btn14">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="5" Grid.Column="4" Margin="4" BindingContext="btn15" x:Name="btn15">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+
+
+            <Image Source="#" BackgroundColor="Black" Grid.Row="6" Grid.Column="0" Margin="4" BindingContext="btn16" x:Name="btn16">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="6" Grid.Column="1" Margin="4" BindingContext="btn17" x:Name="btn17">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="6" Grid.Column="2" Margin="4" BindingContext="btn18" x:Name="btn18">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="6" Grid.Column="3" Margin="4" BindingContext="btn19" x:Name="btn19">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="#" BackgroundColor="Black" Grid.Row="6" Grid.Column="4" Margin="4" BindingContext="btn20" x:Name="btn20">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+                </Image.GestureRecognizers>
+            </Image>
+          
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\bin\Debug\netstandard2.0\projectx1.deps.json
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\bin\Debug\netstandard2.0\projectx1.dll
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\bin\Debug\netstandard2.0\projectx1.pdb
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\userProfile.xaml.g.cs
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\projectx1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\projectx1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\projectx1.AssemblyInfo.cs
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\projectx1.dll
+C:\Users\user\Desktop\projectx1\projectx1\projectx1\obj\Debug\netstandard2.0\projectx1.pdb
